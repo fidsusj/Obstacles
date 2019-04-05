@@ -14,7 +14,7 @@ public class Game : MonoBehaviour {
     public void EndGame() {
         if (!ended) {
             this.ended = true;
-            Invoke("restartGame", this.delay);
+            Invoke("RestartGame", this.delay);
         }
     }
 
